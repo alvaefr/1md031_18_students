@@ -1,112 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        
         <title>Bürger TJOHOO</title>
         <meta charset="utf-8"/>
     </head>
+    
 <body>
     <main>
-        <h1>Välkommen till BürgerOnline TJOHOO</h1>
-        <h1>Välj din Bürger</h1>
+        
+        <section class="header">
+        <img src="/img/pommesfrites.jpg" alt="Pommes frites" title="pommes" id="pommes">
+            
+        <h1 id="welcome">Välkommen till BürgerOnline </h1>
+        </section>
+            
+        <section class="burgare">
+        <h2>Välj din Bürger</h2>
         <div>Välj bland följande bürgare:</div>
-        
-    <table>
-        <thead>
-            <tr>
-                <th><h3>Halloumibürger</h3></th>
-                <th><h3>Cheezebürgare</h3></th>
-                <th><h3>Greenbürgare</h3></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="img/halloumiburgare.jpg" alt="halloumiburgare" title="Halloumi" width="300" height="300"></td>
-                <td><img src="img/cheezebürgare.jpg" alt="cheezeburgare" title="Cheeze" width="330" height="300"></td>
-                <td><img src="img/greenburgare.jpg" alt="Greenburgare" title="Green" width="300" height="300"></td>
-            </tr>    
-        </tbody>
-        
-        <tfoot>
-            <tr>
-                <td><ul> 
+        <br />
+
+        <div class="wrapper">
+                <div class="Box halloumi"><h3>Halloumibürger</h3></div>
+                <div class="Box cheeze"><h3>Cheezebürgare</h3></div>
+                <div class="Box green"><h3>Greenbürgare</h3></div>
+
+                <div class="Box imghalloumi"> <img src="img/halloumiburgare.jpg" alt="halloumiburgare" title="Halloumi" width="300" height="300"></div>
+                <div class="Box imgcheeze"><img src="img/cheezebürgare.jpg" alt="cheezeburgare" title="Cheeze" width="330" height="300"></div>
+                <div class="Box imggreen"><img src="img/greenburgare.jpg" alt="Greenburgare" title="Green" width="300" height="300"></div>
+              
+                <div class="Box inghalloumi">
+                    <ul> 
                     <li>Picklad rödlök</li>      
                     <li>Soltorkadtomat</li>
-                    <li>Halloumi <i>(laktos)</i></li> 
+                        
+                    <section class="laktos">
+                    <li>Halloumi <span id="laktos">(laktos)</span></li>
+                    </section>
+                        
                     <li>Avokado</li>
                     <li>Ruccola</li>
-                    <li>Bürgerdressing <i>(laktos)</i></li>
-                    <li>Briochebröd <i>(gluten)</i></li>
-                </ul></td>
+                    
+                    <section class="laktos">
+                    <li>Bürgerdressing <span id="laktos">(laktos)</span></li>
+                    </section>
+                        
+                    <section class="gluten">
+                    <li>Briochebröd <span id="gluten">(gluten)</span></li>
+                    </section>
+                </ul></div>
 
-                <td><ul>
+                <div class="Box ingcheeze">
+                    <ul>
                     <li>Karmelliserad lök</li>
-                    <li>Cheddar <i>(laktos)</i></li>
+                    
+                    <section class="laktos">
+                    <li>Cheddar <span id="laktos">(laktos)</span></li>
+                    </section>
+                    
                     <li>Vegopuck</li> 
                     <li>Tomat</li>
                     <li>Sallad</li>
-                    <li>Sirachadressing <i>(laktos)</i></li>
-                    <li>Bürgerbröd <i>(gluten)</i></li>
-                </ul></td>
+                        
+                    <section class="laktos">
+                    <li>Sirachadressing <span id="laktos">(laktos)</span></li>
+                    </section>
+                    
+                    <section class="gluten">
+                    <li>Bürgerbröd <span id="gluten">(gluten)</span></li>
+                    </section>
+                </ul></div>
 
-                <td><ul>
+                <div class="Box inggreen">
+                    <ul>
                     <li>Rödkål</li>
-                    <li>Chilimayo <i>(ägg)</i></li>
+                    
+                    <section class="egg">
+                    <li>Chilimayo <span id="egg">(ägg)</span></li>
+                    </section>
+
                     <li>Vegopuck</li>
                     <li>Guacamole</li>
                     <li>Sallad</li>
-                    <li>Bürgerbröd <i>(gluten)</i></li>
                     
-                </ul></td>
-            </tr>
-
-        </tfoot>
+                    <section class="gluten">
+                    <li>Bürgerbröd <span id="gluten">(gluten)</span></li>
+                    </section>
+                    
+                </ul></div>
+        </div>      
+        </section>
         
-    </table>
-        <h3>Kundinformation</h3>
-        <div>Här fyller du i nödvändiga personuppgifter</div>
-        <h4>Kontaktuppgifter för hemkörning</h4>
+        <section class="costumer">
+            <h3>Kundinformation</h3>
+            <div>Här fyller du i nödvändiga personuppgifter</div>
+            <h4>Kontaktuppgifter för hemkörning</h4>
         
         <form>
             <p>
-                <label for="Name">Namn</label><br>
-                <input type="text" id="name" name="fn" required="required" placeholder="För- och efternamn">
+            <label for="Name">Namn</label><br>
+            <input type="text" id="name" name="fn" required="required" placeholder="För- och efternamn">
             </p>
+            
             <p>
-                <label for="email">E-mail</label><br>
-                <input type="text" id="email" name="ln" placeholder="E-mailadress">
+            <label for="email">E-mail</label><br>
+            <input type="text" id="email" name="ln" placeholder="E-mailadress">
             </p>
+            
             <p>
-                <label for="adress">Adress</label><br>
-                <input type="text" id="street" name="em" required="required" placeholder="Gata"><br>
-                <input type="text" id="housenr" name="em" reguired="required" placeholder="Husnummer"><br>
-            </p>
-
-            <p>
-                <label for="payment">Betalning</label><br>
-                <select id="payment" name="rcp">
-                    <option>Kreditkort</option>
-                    <option>Kontokort</option>
-                    <option>Faktura</option>
-                    <option>Presentkort</option>
-                </select>
+            <label for="adress">Adress</label><br>
+            <input type="text" id="street" name="em" required="required" placeholder="Gata"><br>
+            <input type="text" id="housenr" name="em" reguired="required" placeholder="Husnummer"><br>
             </p>
 
             <p>
-                <label for="gender">Ange kön</label><br>
-                <input type="radio" name="gender" value="Kvinna" checked="checked"> Kvinna <br>
-                <input type="radio" name="gender" value="Man"> Man<br>
-                <input type="radio" name="gender" value="Vill ej ange"> Vill ej ange<br>
+            <label for="payment">Betalning</label><br>
+            <select id="payment" name="rcp">
+                <option>Kreditkort</option>
+                <option>Kontokort</option>
+                <option>Faktura</option>
+                <option>Presentkort</option>
+            </select>
+            </p>
+
+            <p>
+            <label for="gender">Ange kön</label><br>
+            <input type="radio" name="gender" value="Kvinna" checked="checked"> Kvinna <br>
+            <input type="radio" name="gender" value="Man"> Man<br>
+            <input type="radio" name="gender" value="Vill ej ange"> Vill ej ange<br>
             </p>  
         </form>
+        <br /> 
+        </section>
+        <br />
         
-        <button type="submit" style="background-color: white"><img src="/img/burgare.jpg" width="20" height="20"> BESTÄLL NU! <img src="/img/burgare.jpg" width="20" height="20"></button>
+        <section class="button">
+            <button type="submit"><img src="/img/burgare.jpg" width="20" height="20"> BESTÄLL NU! <img src="/img/burgare.jpg" width="20" height="20"></button>
+        </section>
 
         <br />
         <hr style="border: 1px solid black;" />
         <br />
         
         <p>&copy; 2019 Alvaefr Inc<p>
-        <p>In case of supersize: Kontakta dr. Willem DeChateau</p>
+        <p>In case of supersize: Contact your local doctor</p>
                 
     </main>
 </body>
