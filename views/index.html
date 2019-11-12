@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DELI-VERY</title>
+        <title>Bürger TJOHOO</title>
+        <meta charset="utf-8"/>
     </head>
-    <body>
-        <h1>Hello World!!!</h1>
-    </body>
+<body>
+    <main>
+        <h1>Välkommen till BürgerOnline TJOHOO</h1>
+        <h1>Välj din Bürger</h1>
+        <div>Välj bland följande bürgare:</div>
+        
+    <table>
+        <thead>
+            <tr>
+                <th><h3>Halloumibürger</h3></th>
+                <th><h3>Cheezebürgare</h3></th>
+                <th><h3>Greenbürgare</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/halloumiburgare.jpg" alt="halloumiburgare" title="Halloumi" width="300" height="300"></td>
+                <td><img src="img/cheezebürgare.jpg" alt="cheezeburgare" title="Cheeze" width="330" height="300"></td>
+                <td><img src="img/greenburgare.jpg" alt="Greenburgare" title="Green" width="300" height="300"></td>
+            </tr>    
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td><ul> 
+                    <li>Picklad rödlök</li>      
+                    <li>Soltorkadtomat</li>
+                    <li>Halloumi <i>(laktos)</i></li> 
+                    <li>Avokado</li>
+                    <li>Ruccola</li>
+                    <li>Bürgerdressing <i>(laktos)</i></li>
+                    <li>Briochebröd <i>(gluten)</i></li>
+                </ul></td>
+
+                <td><ul>
+                    <li>Karmelliserad lök</li>
+                    <li>Cheddar <i>(laktos)</i></li>
+                    <li>Vegopuck</li> 
+                    <li>Tomat</li>
+                    <li>Sallad</li>
+                    <li>Sirachadressing <i>(laktos)</i></li>
+                    <li>Bürgerbröd <i>(gluten)</i></li>
+                </ul></td>
+
+                <td><ul>
+                    <li>Rödkål</li>
+                    <li>Chilimayo <i>(ägg)</i></li>
+                    <li>Vegopuck</li>
+                    <li>Guacamole</li>
+                    <li>Sallad</li>
+                    <li>Bürgerbröd <i>(gluten)</i></li>
+                    
+                </ul></td>
+            </tr>
+
+        </tfoot>
+        
+    </table>
+        <h3>Kundinformation</h3>
+        <div>Här fyller du i nödvändiga personuppgifter</div>
+        <h4>Kontaktuppgifter för hemkörning</h4>
+        
+        <form>
+            <p>
+                <label for="Name">Namn</label><br>
+                <input type="text" id="name" name="fn" required="required" placeholder="För- och efternamn">
+            </p>
+            <p>
+                <label for="email">E-mail</label><br>
+                <input type="text" id="email" name="ln" placeholder="E-mailadress">
+            </p>
+            <p>
+                <label for="adress">Adress</label><br>
+                <input type="text" id="gata" name="em" required="required" placeholder="Gata"><br>
+                <input type="text" id="stad" name="em" reguired="required" placeholder="Stad"><br>
+                <input type="text" id="postnr" name="em" required="required" placeholder="Postnummer"><br>
+            </p>
+
+            <p>
+                <label for="payment">Betalning</label><br>
+                <select id="payment" name="rcp">
+                    <option>Kreditkort</option>
+                    <option>Kontokort</option>
+                    <option>Faktura</option>
+                    <option>Presentkort</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="gender">Ange kön</label><br>
+                <input type="radio" name="gender" value="Kvinna" checked="checked"> Kvinna <br>
+                <input type="radio" name="gender" value="Man"> Man<br>
+                <input type="radio" name="gender" value="Vill ej ange"> Vill ej ange<br>
+            </p>  
+        </form>
+        
+        <button type="submit" style="background-color: white"><img src="/img/burgare.jpg" width="20" height="20"> BESTÄLL NU! <img src="/img/burgare.jpg" width="20" height="20"></button>
+
+        <br />
+        <hr style="border: 1px solid black;" />
+        <br />
+        
+        <p>&copy; 2019 Alvaefr Inc<p>
+        <p>In case of supersize: Kontakta dr. Willem DeChateau</p>
+                
+    </main>
+</body>
+    
 </html>
+
