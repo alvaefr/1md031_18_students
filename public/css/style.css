@@ -1,0 +1,93 @@
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 6vw;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 120%;
+    background-color: #0d260d}
+
+
+label {font-weight: 500}
+
+#gluten {font-style: italic;
+        font-weight: bold}
+#egg {font-style: italic;
+        font-weight: bold}
+#laktos {font-style: italic;
+        font-weight: bold}
+
+.header {background-color: #ecf9ec;
+        margin: 10px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 5px;
+        padding: 5px;}
+
+.burgare {background-color: #b3e6b3;
+        margin: 10px;
+        border-right: 4px solid #267326;
+        border-left: 4px solid #267326;
+        border-bottom: 4px dashed #267326;
+        border-top: 4px dashed #267326;
+        border-radius: 5px;
+        padding-left: 15px;
+        padding-right: 15px} 
+
+
+.costumer {background-color: black;
+        color: white;
+        margin: 10px;
+        border-radius: 5px;
+        border: 4px solid ;
+        padding-left: 15px}
+
+.button {margin: 10px;
+        padding-left: 15px}
+
+button:hover {
+    background-color:#267326;
+    color: white;
+    cursor: pointer}
+
+#welcome {font-weight: 400;
+    font-size: 1.5cm;
+    color: black /*#194d19*/;
+    text-align: center;
+    position: relative;
+    margin-top: -150px}
+
+#pommes {width: 100%;
+        height: 200px;
+        object-fit: cover;
+        opacity: 0.8}
+
+
+.Box {
+     background-color: #b3e6b3;
+     color: black;
+     border-radius: 5px;
+     padding: 0px;
+     font-size: 100%;
+     text-align: center
+        }
+
+.super-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 15em);
+    text-align: center;
+    grid-gap: 20px;
+    background-color: #b3e6b3;
+    color: black;
+
+}
+
+
+ul {
+    padding-left: 2em;
+    text-align: left;
+    }
+
