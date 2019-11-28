@@ -18,7 +18,7 @@ Create an index.html file which contains:
 	- [X] A name
 	- [X] An image
 	- [X] Information about allergies
-- [ ] A section to collect customer information:
+- [X] A section to collect customer information:
 	- [X] First- and Last Name (in one field)
 	- [X] E-Mail Address
 	- [X] Street
@@ -48,14 +48,14 @@ Create a js_script.js file which contains:
 - [X] A MenuItem constructor
 - [X] A function that defines at least five different burgers using the MenuItem constructor and adds them to an array
 - [X] A function that loops through the array and inserts the information to the burger selection section of the index.html file
-- [ ] A function that loads the information from the menu.js json object and inserts the information to the burger selection section of the index.html file
+- [X] A function that loads the information from the menu.js json object and inserts the information to the burger selection section of the index.html file
 - [X] Only displays allergy information if relevant (either only if it contains gluten or lactose, or only if it's gluten or lactose free)
 - [ ] Add a checkbox to each menu item
 - [ ] A functionality for the order button that writes the information from the text boxes, the gender and all items on the order (that have the checkbox checked) to the bottom of the html file when the button is clicked
 
 Create a vue_script.js file which contains:
-- [ ] A function that loops through the array and inserts the information to the burger selection section of the index.html file
-- [ ] A function that loads the information from the menu.js json object and inserts the information to the burger selection section of the index.html file
+- [X] A function that loops through the array and inserts the information to the burger selection section of the index.html file
+- [X] A function that loads the information from the menu.js json object and inserts the information to the burger selection section of the index.html file
 - [X] Only displays allergy information if relevant (either only if it contains gluten or lactose, or only if it's gluten or lactose free)
 - [ ] Add a checkbox to each menu item
 - [ ] A functionality for the order button that writes the information from the text boxes, the gender and all items on the order (that have the checkbox checked) to the bottom of the html file when the button is clicked
